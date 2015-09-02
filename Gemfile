@@ -5,6 +5,7 @@ if RUBY_PLATFORM =~ /(win32|w32)/
 end
 
 group :development do
+  gem 'guard'
   gem 'guard-cucumber'
 end
 
