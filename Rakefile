@@ -5,6 +5,7 @@ begin
   # features
   Cucumber::Rake::Task.new(:features) do |t|
     t.cucumber_opts = "features --format pretty"
+#    t.cucumber_opts = "features --format html --out cucumber.html"
   end
 
   # all tests
