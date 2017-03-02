@@ -10,10 +10,10 @@ end
 
 group :test do
   gem 'cucumber'
+  gem 'metric_fu'
   gem 'rake'
   gem 'rdoc'
   gem 'rspec'
-  gem 'simplecov'
   gem 'rubocop'
-  gem 'metric_fu'
+  gem 'simplecov'
 end
