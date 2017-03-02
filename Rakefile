@@ -18,7 +18,8 @@ begin
   end
 
   # all tests
-  task test: [:features, :rubocop, :metric_fu]
+  #  task test: [:features, :rubocop, :metric_fu]  # metric_fu not working
+  task test: [:features, :rubocop]
 
   desc 'generate API documentation to doc/rdocs/index.html'
   task :rdoc do
