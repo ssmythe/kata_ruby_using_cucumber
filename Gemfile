@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'win32console', '1.3.0' if RUBY_PLATFORM =~ /(win32|w32)/
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'win32console', '1.3.0' if Gem.win_platform?
 
 group :development do
   gem 'guard'
