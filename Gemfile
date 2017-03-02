@@ -8,7 +8,7 @@ group :development do
 end
 
 group :test do
-  gem 'cucumber', '2.0.2'
+  gem 'cucumber'
   gem 'rake'
   gem 'rdoc'
   gem 'rspec'
